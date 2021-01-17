@@ -1,0 +1,14 @@
+@charset "utf-8";
+
+body { /* 여는 중괄호는 대상 선택자를 꾸밀 명령을 담은 선언 구간의 시작을 알림 */
+    font-family: 돋움, Dotum, Sans-Serief; /* 글꼴 설정 */ 
+    font-size: 75%; /* 글씨의 크기: 75% */
+    line-height: 1.5; /* 글줄 간의 간격(행간)을 글자 크기의 1.5배로 설정 */
+    background-image: url('../images/bg.jpg'); /* 배경이미지 넣음 */
+    background-size: cover; /* 배경 이미지가 잘리기 때문에 전체를 넣기 위함, 웹 브라우저의 가로 폭을 기준으로 함 */
+    color: #ececec; /* 글자 색상 값을 밝은 히색으로 */
+} /* 닫는 중괄호는 대상 선택자를 꾸밀 명령을 담은 선언 구간의 끝을 알림 */
+
+h1, h2 { /* 꾸미려는 대상(h1, h2) 선택 */
+    color: #3fb8eb;
+}
