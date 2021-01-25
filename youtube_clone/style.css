@@ -1,0 +1,105 @@
+:root {
+  --text-color: #f0f4f5;
+  --background-color: black;
+}
+
+body {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--background-color);
+  padding: 12px 24px;
+  color: var(--text-color);
+}
+
+.navbar_logo i {
+  color: red;
+}
+
+.navbar_logo a {
+  color: var(--text-color);
+}
+
+.info {
+  padding-left: 10px;
+}
+
+.tag {
+  padding-left: 0;
+  list-style: none;
+  display: flex;
+  margin-left: 0;
+}
+
+.tag li {
+  padding-right: 10px;
+  color: blue;
+}
+
+.title_addinfo {
+  display: flex;
+}
+
+.title_addinfo button {
+  background-color: transparent;
+  border: none;
+}
+
+.video_info {
+  font-size: 12px;
+  color: gray;
+}
+
+.info_icons {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  color: gray;
+  text-align: center;
+  padding-left: 0;
+}
+
+.youtuber_infos {
+  display: flex;
+  justify-content: space-between;
+}
+
+.youtuber_info {
+  display: flex;
+  align-items: center;
+}
+
+.youtuber_name {
+  padding-left: 10px;
+}
+
+.subscribe_Btn {
+  background-color: transpar12pxent;
+  border: none;
+  color: gray;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+.upnext {
+  list-style: none;
+  padding-left: 10px;
+}
+
+.upnext li {
+  display: flex;
+  align-items: center;
+}
+
+.upnext [class$="info"] div:nth-last-of-type(-n+2) {
+  color: gray;
+  font-size: 12px;
+}
