@@ -28,6 +28,15 @@ a {
   color: var(--text-color);
 }
 
+.navbar .navbar_search i {
+  margin-left: 10px;
+}
+
+.video {
+  background: black;
+  text-align: center;
+}
+
 .info {
   padding-left: 10px;
 }
@@ -46,11 +55,23 @@ a {
 
 .title_addinfo {
   display: flex;
+  justify-content: space-between;
+}
+
+.title_addinfo >.title {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
 }
 
 .title_addinfo button {
   background-color: transparent;
   border: none;
+}
+
+.title_addinfo button:hover {
+  background-color: transparent;
 }
 
 .video_info {
@@ -82,7 +103,7 @@ a {
 }
 
 .subscribe_Btn {
-  background-color: transpar12pxent;
+  background-color: transparent;
   border: none;
   color: gray;
   font-size: 15px;
@@ -102,4 +123,18 @@ a {
 .upnext [class$="info"] div:nth-last-of-type(-n+2) {
   color: gray;
   font-size: 12px;
+}
+
+.upnext .image {
+  margin-right: 10px;
+}
+
+.info_icons li button {
+  border: none;
+  background-color: transparent;
+}
+
+.info_icons li button i {
+  font-size: 15px;
+  color: grey;
 }
