@@ -1,1 +1,5 @@
-html, css, javascript 코드 공부
+## html, css, javascript 기초 코드 및 미니 프로젝트
+---
+[basic_website](https://github.com/rimiiii/FrontEnd/tree/main/basic_website): website navbar 만들기<br>
+[youtube_clone](https://github.com/rimiiii/FrontEnd/tree/main/youtube_clone): 유튜브 UI 클론코딩<br>
+[youtube_clone_ver2](https://github.com/rimiiii/FrontEnd/tree/main/youtube_clone_ver2): 유튜브 UI 클론코딩(기호에 맞게 변형함)<br>
