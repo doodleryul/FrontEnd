@@ -191,3 +191,23 @@ function calculate(command, a, b) {
   }
 };
 calculate('remaindedr', 3, 5);
+
+
+// Ellie의 코드, 맥북으로 다시보기
+// if문보단 switch가 더 좋다 왜????
+function calculate(command, a, b) {
+  switch (command) {
+    case 'add':
+      return a+b;
+    case 'substract':
+      return a-b;
+    case 'divide':
+      return a/b;
+    case 'remainder':
+      return a%b;
+    default:
+      throw Error('unknown command');
+  }
+}
+
+console.log(calculate('add', 2, 3));
