@@ -66,4 +66,35 @@ console.log(fruits);
 console.log('\n#splice');
 fruits.push('🍓', '🍑', '🥝');
 console.log(fruits);
-fruits.splice()
+fruits.splice(1, 1); //fruits.splice(1); 원하는 인덱스만 지정하면 인덱스부터 뒤까지 모두 지워버림 
+console.log(fruits);
+fruits.splice(1, 1, '🍒', '🍋'); // 지우고 그자리에 새로운 과일들 추가함
+console.log(fruits);
+
+// combine two arrays
+console.log('\n#combine');
+const fruits2 = ['🍇', '🍉'];
+const newFruits = fruits.concat(fruits2);
+console.log(newFruits);
+
+// 5. Searching
+// find the index
+console.log('\n5. Searching');
+console.log(fruits);
+console.log(fruits.indexOf('🍎'));
+console.log(fruits.indexOf('🍋'));
+console.log(fruits.indexOf('🍆')); //없는것
+
+// includes
+console.log('\n#includes');
+console.log(fruits);
+console.log(fruits.includes('🍋'));
+console.log(fruits.includes('🥭'));
+
+// lastIndexOf
+console.log('\n#lastIndexOf');
+fruits.push('🍎'); // 사과가 중복으로 들어갔을 경우의 indexof
+console.log(fruits);
+console.log(fruits.indexOf('🍎'));
+console.log(fruits.lastIndexOf('🍎'));
+// 2개가 아니라 여러개가 있으면 어떻게해???
