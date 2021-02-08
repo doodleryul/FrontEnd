@@ -1,5 +1,5 @@
 # html, css, javascript 기초 코드 및 미니 프로젝트
-
+html, css javascript 기본기 코드와 미니 프로젝트 코드입니다. 모든 질문과 첨언 환영합니다🎉
 ## html, css
 [basic_website](https://github.com/rimiiii/FrontEnd/tree/main/basic_website): website navbar 만들기<br>
 [youtube_clone](https://github.com/rimiiii/FrontEnd/tree/main/youtube_clone): 유튜브 UI 클론코딩<br>
