@@ -169,7 +169,7 @@ console.log('\n#old');
   for (value of students) {
     studentsScoreStr.push(String(value.score))
   };
-  console.log(studentsScoreStr);
+  console.log(studentsScoreStr.join());
 }
 
 // new
@@ -177,7 +177,7 @@ console.log('\n#new');
 {
   const studentScore = students
   .map(student => student.score)
-  .map(String);
+  .join() // .map(String);
   console.log(studentScore);
 }
 
@@ -193,14 +193,16 @@ console.log('\n#old');
     studentsScoreStr.push(String(value.score))
   };
  studentsScoreStr.sort();
- console.log(studentsScoreStr);
+ console.log(studentsScoreStr.join());
 }
 
+// new
 console.log('\n#new');
+// compareFunction(a, b)이 0보다 큰 경우, b를 a보다 낮은 인덱스로 소트합니다.
 {
   const studentScoreSorted = students
   .map(student => student.score)
-  .map(String)
-  .sort();
+  .sort((a, b) => a - b)
+  .join();
   console.log(studentScoreSorted);
 }
