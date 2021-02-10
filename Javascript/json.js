@@ -32,7 +32,7 @@ json = JSON.stringify(rabbit, ['name', 'color']);
 console.log(json);
 
 json = JSON.stringify(rabbit, (key, value) => {
-  console.log('key: '+ key + ', value: '+ value);
+  console.log(`key: ${key}, value: ${value}`);
   return key === 'name' ? 'rimiiii' : value;
 })
 console.log(json);
@@ -42,7 +42,7 @@ console.log(json);
 console.log('\n2. JSON to Object');
 json = JSON.stringify(rabbit);
 const obj = JSON.parse(json, (key, value) => {
-  console.log('key: '+ key + ', value: '+ value);
+  console.log(`key: ${key}, value: ${value}`);
   return key === 'birthDate' ? new Date(value) : value;
 });
 console.log(obj);
