@@ -16,6 +16,7 @@ html, css javascript 기본기 코드와 미니 프로젝트 코드입니다. �
 [callback.js](https://github.com/rimiiii/FrontEnd/blob/main/Javascript/callback.js): callback<br>
 [promise.js](https://github.com/rimiiii/FrontEnd/blob/main/Javascript/promise.js): promise<br>
 [callback-to-promise.js](https://github.com/rimiiii/FrontEnd/blob/main/Javascript/callback-to-promise.js): problem with callback to promise <br>
+[async.js](https://github.com/rimiiii/FrontEnd/blob/main/Javascript/async.js): async <br>
 
 
 Reference: [드림코딩 by 엘리](https://www.youtube.com/channel/UC_4u-bXaba7yrRz_6x6kb_w)
